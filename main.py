@@ -11,7 +11,7 @@ def parallel_processing(n, m, data):
         start_time = thread_list[new_worker]
         output.append([new_worker, start_time])
         job_time = data[i]
-        start_time += job_time
+        thread_list[new_worker] += job_time
 
     return output
 
