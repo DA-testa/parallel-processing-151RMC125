@@ -1,5 +1,6 @@
 # python3
 
+
 def parallel_processing(n, m, data):
     output = []
     # TODO: write the function for simulating parallel tasks, 
@@ -14,6 +15,7 @@ def parallel_processing(n, m, data):
         thread_list[new_worker] += job_time
 
     return output
+
 
 def main():
     # TODO: create input from keyboard
@@ -35,7 +37,6 @@ def main():
     # TODO: print out the results, each pair in it's own line
     for i, t in result:
         print(i, t)
-
 
 
 if __name__ == "__main__":
